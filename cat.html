@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disappearing Cat</title>
+	<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script>
+		
+		$(document).ready(function(){
+			$('img').click(function(){
+				$(this).fadeOut();
+			})
+			$('#restore').click(function(){
+				$('img').fadeIn();
+			})
+	})
+	</script>
+</head>
+<body>	
+		<div id='row1'>
+			<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsM5O2NTrYHLcJA_c9n6dKB6xkj7hLcEOhdn6AqPGeuc24I3LSgw'/>
+			<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsM5O2NTrYHLcJA_c9n6dKB6xkj7hLcEOhdn6AqPGeuc24I3LSgw'/>
+			<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsM5O2NTrYHLcJA_c9n6dKB6xkj7hLcEOhdn6AqPGeuc24I3LSgw'/>
+			<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsM5O2NTrYHLcJA_c9n6dKB6xkj7hLcEOhdn6AqPGeuc24I3LSgw'/>
+		</div>
+
+		<div id='row2'>
+				<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsM5O2NTrYHLcJA_c9n6dKB6xkj7hLcEOhdn6AqPGeuc24I3LSgw'/>
+			<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsM5O2NTrYHLcJA_c9n6dKB6xkj7hLcEOhdn6AqPGeuc24I3LSgw'/>
+			<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsM5O2NTrYHLcJA_c9n6dKB6xkj7hLcEOhdn6AqPGeuc24I3LSgw'/>
+			<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsM5O2NTrYHLcJA_c9n6dKB6xkj7hLcEOhdn6AqPGeuc24I3LSgw'/>
+		</div>
+		<button id='restore'>Restore</button>
+	
+
+</body>
+</html>
